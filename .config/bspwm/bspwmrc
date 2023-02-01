@@ -41,9 +41,12 @@ dunst &
 udiskie &
 jgmenu &
 xfce4-power-manager &
+redshift-gtk &
 xsetroot -cursor_name left_ptr &
+spotifyd --config-path $HOME/.config/spotifyd/spotifyd.conf &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
-feh --bg-fill ~/.wallpapers/tokyo.png
+/usr/lib/geoclue-2.0/demos/agent &
+feh --bg-scale ~/.wallpapers/tokyo.png
 
 bash $HOME/.config/polybar/run.sh
 bash $HOME/.config/bspwm/scripts/fix-plank
