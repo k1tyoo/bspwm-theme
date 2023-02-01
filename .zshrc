@@ -27,11 +27,9 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 source $ZSH/oh-my-zsh.sh
-
-# Aliases
-alias proxy="proxychains"
-alias vim=nvim
-alias realvim=vim
+source /usr/share/nvm/init-nvm.sh
+source $HOME/.envs
+source $HOME/.aliass
 
 # Tmux on startup
 if [[ -z "$TMUX" ]] ;then
