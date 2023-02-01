@@ -1,0 +1,15 @@
+# exa
+alias ll='exa -lh'
+alias la='exa -lha'
+alias lt='exa -lhT'
+alias lta='exa -lhta'
+alias ls='exa -G'
+alias ld='exa -D'
+alias lg='exa --git-ignore'
+alias llg='exa --git -lha'
+alias lla='exa -lh --no-user --no-time --no-filesize'
+
+# fd
+
+# size
+alias size='f(){ du -sh $1* | sort -hr; }; f'
